@@ -7,7 +7,7 @@
 
 img {
     width: 180px;
-    padding: 25px;
+    padding: 25px 25px 0;
     transition: all 0.5s ease-out;
     filter: grayscale(60%);
     border-radius: 20%;
@@ -19,23 +19,16 @@ img:hover {
     filter: grayscale(10%)
 }
 
-/*colors box temp*/
+/* colors boxs*/
 
-header {
-    background-color: hsla(60, 100%, 50%, 0.30);
-}
-
-section {
-    background-color: rgba(119, 201, 137, 0.3);
+header, .projects {
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
 footer {
     background-color: rgba(39, 39, 39, 0.3);
 }
 
-body {
-    background-color: rgba(252, 0, 0, 0.3);
-}
 /*-------*/
 body {
     display: flex;
@@ -52,14 +45,35 @@ body {
 }
 header {
     display: flex;
+    
+}
+
+.projects {
+    padding: 0 20px;
 }
 
 figure {
     display: inline;
 }
 
+figcaption {
+    text-align: center;
+    
+}
+
 article {
     display: inline;
+    padding: 20px 5px;
+    margin: 0 10px;
+    border-left: solid 1px;
+}
+
+h1 {
+    margin-bottom: 18px;
+}
+
+p {
+    font-size: 20px;
 }
 
 /* footer */
