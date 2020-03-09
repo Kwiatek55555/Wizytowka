@@ -2,11 +2,12 @@
     margin: 0;
     padding:0;
 }
-
+img {
+    width: 180px;
+}
 /* Image */
 
 img {
-    width: 180px;
     padding: 25px 25px 0;
     transition: all 0.5s ease-out;
     filter: grayscale(60%);
@@ -98,4 +99,8 @@ li {
     font-size: 36px;
     white-space: nowrap;
     margin-right: 24px;
+}
+
+i:hover {
+    transform: scale(1.1);
 }
