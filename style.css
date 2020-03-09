@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding:0;
+}
+
+/* Image */
+
+img {
+    width: 180px;
+    padding: 10px;
+}
+
+/*colors box temp*/
+
+header {
+    background-color: hsla(60, 100%, 50%, 0.30);
+}
+
+section {
+    background-color: rgba(119, 201, 137, 0.3);
+}
+
+footer {
+    background-color: rgba(39, 39, 39, 0.3);
+}
+
+body {
+    background-color: rgba(252, 0, 0, 0.3);
+}
+/*-------*/
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container {
+    width: 680px;
+    max-width: calc(100vw - 10px);
+}
+
+footer {
+    text-align: center;
+}
+
+/* footer */
+footer {
+    padding: 10px;
+}
+
+h3, ul {
+    display: inline;
+}
+
+h3 {
+    margin-right: 30%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding: 0 5vh;
+}
