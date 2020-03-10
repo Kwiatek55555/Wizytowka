@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding:0;
+    box-sizing: border-box;
 }
 img {
     width: 180px;
@@ -16,7 +17,7 @@ img {
 }
 
 img:hover {
-    transform: scale(1.2);
+    transform: scale(1.08);
     filter: grayscale(10%)
 }
 
@@ -51,6 +52,7 @@ header {
 
 .projects {
     padding: 0 20px;
+    min-height: 200px;
 }
 
 figure {
@@ -59,14 +61,18 @@ figure {
 
 figcaption {
     text-align: center;
-    
+    padding-top: 8px;
+}
+
+header > article {
+    display: block;
+    padding: 20px 5px;
+    border-left: solid 1px;
 }
 
 article {
-    display: inline;
+    display: block;
     padding: 20px 5px;
-    margin: 0 10px;
-    border-left: solid 1px;
 }
 
 h1 {
@@ -80,25 +86,28 @@ p {
 /* footer */
 footer {
     padding: 10px;
+    display: inline-block;
 }
 
 h3, ul {
-    display: inline;
+    display: block;
 }
 
 h3 {
     margin-right: 20%;
+    float: left;
+    padding: 10px;
 }
 
 ul {
     list-style-type: none;
+    float: right;
 }
 
 li {
-    display: inline;
     font-size: 36px;
-    white-space: nowrap;
-    margin-right: 24px;
+    padding-left: 30px;
+    display: inline-block;    
 }
 
 i:hover {
