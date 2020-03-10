@@ -87,6 +87,7 @@ p {
 footer {
     padding: 10px;
     display: inline-block;
+    width: 100%;
 }
 
 h3, ul {
@@ -112,4 +113,23 @@ li {
 
 i:hover {
     transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+/* colors fonts */
+
+.blue:hover {
+    color: rgb(27, 27, 255);
+}
+
+.red:hover {
+    color: red;
+}
+
+.white:hover {
+    color: white;
 }
